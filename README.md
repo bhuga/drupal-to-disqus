@@ -12,12 +12,12 @@ appropriate mysql or postgres adapters; If you get an error, Sequel will tell
 you what to do.  See <http://sequel.rubyforge.org/documentation.html> for more
 information.
 
-For most working Ruby installations, this is all need to do:
+For most working Ruby installations, this is all you need to do:
 
     $ sudo gem install sequel --no-rdoc --no-ri
 
 To use:
-1. Copy db.yml.example to db.yml and edit appropriately.
+1. Copy `db.yml.example` to `db.yml` and edit appropriately.
 1. Run the `import_comments.rb` script
 1. Optionally run the `disable_old_comments.rb` script to set the display of
 comments on all nodes to disabled.
