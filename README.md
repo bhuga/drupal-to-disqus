@@ -17,6 +17,7 @@ For most working Ruby installations, this is all you need to do:
     $ sudo gem install sequel --no-rdoc --no-ri
 
 To use:
+
 1. Copy `db.yml.example` to `db.yml` and edit appropriately.
 1. Run the `import_comments.rb` script
 1. Optionally run the `disable_old_comments.rb` script to set the display of
@@ -26,20 +27,20 @@ comments on all nodes to disabled.
 
 Drupal comments don't map directly to Disqus.  The following issues apply:
 
-1. You will lose authorship.  Disqus will track names and email addresses, but
-consider all comments anonymous.
-1. Disqus does not support comment subjects.
+1. You will lose authorship.  Disqus will track names, email addresses, and web
+sites, but will considers all comments anonymous.
+1. Disqus does not support comment subjects.  These will be lost.
 1. Disqus supports only very basic HTML input filters.  If your users are using
 markdown or any other input filter beyond the most basic, that formatting will
 be lost.
 
 ## Author
 
-Ben Lavender <http://bhuga.net>
+Ben Lavender - <http://bhuga.net>
 
 ## "License"
 This software is free software released into the public domain.  See the UNLICENSE
-file distributed with this software.
+file distributed with this software for more information.
 
 The Disqus module is redistributed here, which is released under the MIT
 license.  See the `disqus/` folder for more information.
