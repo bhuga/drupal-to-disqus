@@ -1,0 +1,8 @@
+--- 
+:database: database_name
+:host: database.example.com
+:user: database_username
+:password: database_password
+:adapter: mysql
+:forum_shortname: disqus_shortname
+:api_key: disqus_api_key

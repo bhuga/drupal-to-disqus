@@ -1,0 +1,6 @@
+.DS_Store
+package
+coverage
+test/config.yml
+docs
+pkg
